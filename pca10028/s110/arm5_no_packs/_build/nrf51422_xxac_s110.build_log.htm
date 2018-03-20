@@ -5,11 +5,11 @@
 <h2>Tool Versions:</h2>
 IDE-Version: µVision V5.24.2.0
 Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
-License Information: Timothy Ndungu, Geviton Enterprises Ltd, LIC=----
+License Information: Timothy yhtomit, Geviton, LIC=IC9QD-8KL2I-FZPWU-S4AAH-IXFRC-9UUJ9
  
 Tool Versions:
-Toolchain:       MDK-Lite  Version: 5.24.1
-Toolchain Path:  E:\softs\Keil_v5\ARM\ARMCC\Bin
+Toolchain:       MDK-ARM Professional  Version: 5.24.1
+Toolchain Path:  E:\program files\keil_v5\ARM\ARMCC\Bin
 C Compiler:      Armcc.exe V5.06 update 5 (build 528)
 Assembler:       Armasm.exe V5.06 update 5 (build 528)
 Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
@@ -22,23 +22,23 @@ Dialog DLL:      TARMCM1.DLL V1.13.0.0
  
 <h2>Project:</h2>
 E:\nRF51_SDK_10.0.0\examples\ble_peripheral\ble_app_uart\pca10028\s110\arm5_no_packs\ble_app_uart_s110_pca10028.uvprojx
-Project File Date:  02/08/2018
+Project File Date:  02/11/2018
 
 <h2>Output:</h2>
-*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'E:\softs\Keil_v5\ARM\ARMCC\Bin'
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'E:\program files\keil_v5\ARM\ARMCC\Bin'
 Build target 'nrf51422_xxac_s110'
 compiling main.c...
-..\..\..\main.c(862): warning:  #550-D: variable "err_code"  was set but never used
-  		uint32_t err_code;
-..\..\..\main.c(75): warning:  #177-D: variable "arrayNames"  was declared but never referenced
-  static char arrayNames[10] = {'V', 'L', 'N', 'P', 'S', 'W', 'A', 'M', 'B', 'O'}; // for debugging
-..\..\..\main.c(119): warning:  #177-D: function "service_error_handler"  was declared but never referenced
-  static void service_error_handler(uint32_t nrf_error)
-..\..\..\main.c(768): warning:  #177-D: function "fds_find_and_delete"  was declared but never referenced
-  static ret_code_t fds_find_and_delete (uint32_t keyType, uint32_t keyInstance){
+..\..\..\main.c(82): warning:  #21-D: type qualifiers are meaningless in this declaration
+  volatile struct DeviceSettings{
+..\..\..\main.c(1174): warning:  #9-D: nested comment is not allowed
+  /** @snipet [Control LED pulses]*/
+..\..\..\main.c(1859): warning:  #9-D: nested comment is not allowed
+  					/*if (silTt > NUM_SILENT_SAMPLES) {
+..\..\..\main.c(94): warning:  #177-D: variable "testSettings"  was declared but never referenced
+  static bool testSettings = false;
 ..\..\..\main.c: 4 warnings, 0 errors
 linking...
-Program Size: Code=23184 RO-data=576 RW-data=432 ZI-data=4432  
+Program Size: Code=32920 RO-data=776 RW-data=940 ZI-data=7860  
 FromELF: creating hex file...
 ".\_build\nrf51422_xxac_s110.axf" - 0 Error(s), 4 Warning(s).
 
@@ -58,18 +58,18 @@ Package Vendor: NordicSemiconductor
 
 <h2>Collection of Component include folders:</h2>
   .\RTE\_nrf51422_xxac_s110
-  E:\softs\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
-  E:\softs\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.2.0\Device\Include
+  E:\program files\keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+  E:\program files\keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.2.0\Device\Include
 
 <h2>Collection of Component Files used:</h2>
 
    * Component: NordicSemiconductor::Device:Startup:8.2.0
+      Source file:   Device\Source\system_nrf51.c
       Include file:  Device\Include\system_nrf51.h
       Source file:   Device\Source\arm\arm_startup_nrf51.s
-      Source file:   Device\Source\system_nrf51.c
 
    * Component: ARM::CMSIS:CORE:4.3.0
-Build Time Elapsed:  00:00:02
+Build Time Elapsed:  00:00:08
 </pre>
 </body>
 </html>

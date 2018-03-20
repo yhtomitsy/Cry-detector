@@ -310,14 +310,14 @@ ARM Macro Assembler    Page 5
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M0 --apcs=interw
 ork --depend=.\_build\arm_startup_nrf51.d -o.\_build\arm_startup_nrf51.o -I.\RT
-E\_nrf51422_xxac_s110 -IE:\softs\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
- -IE:\softs\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.2.0\Dev
-ice\Include --predefine="__EVAL SETA 1" --predefine="__MICROLIB SETA 1" --prede
-fine="__UVISION_VERSION SETA 524" --predefine="_RTE_ SETA 1" --predefine="NRF51
- SETA 1" --predefine="BLE_STACK_SUPPORT_REQD SETA 1" --predefine="BOARD_PCA1002
-8 SETA 1" --predefine="S110 SETA 1" --predefine="NRF51 SETA 1" --predefine="SOF
-TDEVICE_PRESENT SETA 1" --predefine="SWI_DISABLE0 SETA 1" --list=.\_build\arm_s
-tartup_nrf51.lst RTE\Device\nRF51422_xxAC\arm_startup_nrf51.s
+E\_nrf51422_xxac_s110 -I"E:\program files\keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSI
+S\Include" -I"E:\program files\keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceF
+amilyPack\8.2.0\Device\Include" --predefine="__MICROLIB SETA 1" --predefine="__
+UVISION_VERSION SETA 524" --predefine="_RTE_ SETA 1" --predefine="NRF51 SETA 1"
+ --predefine="BLE_STACK_SUPPORT_REQD SETA 1" --predefine="BOARD_PCA10028 SETA 1
+" --predefine="S110 SETA 1" --predefine="NRF51 SETA 1" --predefine="SOFTDEVICE_
+PRESENT SETA 1" --predefine="SWI_DISABLE0 SETA 1" --list=.\_build\arm_startup_n
+rf51.lst RTE\Device\nRF51422_xxAC\arm_startup_nrf51.s
 
 
 
@@ -840,4 +840,4 @@ Symbol: __main
       At line 149 in file RTE\Device\nRF51422_xxAC\arm_startup_nrf51.s
 Comment: __main used once
 2 symbols
-406 symbols in table
+405 symbols in table

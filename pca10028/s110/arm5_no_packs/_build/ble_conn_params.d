@@ -1,6 +1,6 @@
 .\_build\ble_conn_params.o: ..\..\..\..\..\..\components\ble\common\ble_conn_params.c
 .\_build\ble_conn_params.o: ..\..\..\..\..\..\components\ble\common\ble_conn_params.h
-.\_build\ble_conn_params.o: E:\softs\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\_build\ble_conn_params.o: E:\program files\keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\_build\ble_conn_params.o: ..\..\..\..\..\..\components\softdevice\s110\headers\ble.h
 .\_build\ble_conn_params.o: ..\..\..\..\..\..\components\softdevice\s110\headers\ble_ranges.h
 .\_build\ble_conn_params.o: ..\..\..\..\..\..\components\softdevice\s110\headers\ble_types.h
@@ -13,12 +13,12 @@
 .\_build\ble_conn_params.o: ..\..\..\..\..\..\components\softdevice\s110\headers\ble_gattc.h
 .\_build\ble_conn_params.o: ..\..\..\..\..\..\components\softdevice\s110\headers\ble_gatts.h
 .\_build\ble_conn_params.o: ..\..\..\..\..\..\components\ble\common\ble_srv_common.h
-.\_build\ble_conn_params.o: E:\softs\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\_build\ble_conn_params.o: E:\program files\keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 .\_build\ble_conn_params.o: ..\..\..\..\..\..\components\libraries\util\app_util.h
-.\_build\ble_conn_params.o: E:\softs\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.2.0\Device\Include\compiler_abstraction.h
-.\_build\ble_conn_params.o: E:\softs\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\_build\ble_conn_params.o: E:\program files\keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.2.0\Device\Include\compiler_abstraction.h
+.\_build\ble_conn_params.o: E:\program files\keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\_build\ble_conn_params.o: ..\..\..\..\..\..\components\libraries\util\nordic_common.h
 .\_build\ble_conn_params.o: ..\..\..\..\..\..\components\softdevice\s110\headers\ble_hci.h
 .\_build\ble_conn_params.o: ..\..\..\..\..\..\components\libraries\timer\app_timer.h
-.\_build\ble_conn_params.o: E:\softs\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\_build\ble_conn_params.o: E:\program files\keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\_build\ble_conn_params.o: ..\..\..\..\..\..\components\libraries\util\app_error.h

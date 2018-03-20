@@ -1,8 +1,8 @@
 .\_build\ble_advdata.o: ..\..\..\..\..\..\components\ble\common\ble_advdata.c
 .\_build\ble_advdata.o: ..\..\..\..\..\..\components\ble\common\ble_advdata.h
-.\_build\ble_advdata.o: E:\softs\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-.\_build\ble_advdata.o: E:\softs\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
-.\_build\ble_advdata.o: E:\softs\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\_build\ble_advdata.o: E:\program files\keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\_build\ble_advdata.o: E:\program files\keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\_build\ble_advdata.o: E:\program files\keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\_build\ble_advdata.o: ..\..\..\..\..\..\components\softdevice\s110\headers\ble.h
 .\_build\ble_advdata.o: ..\..\..\..\..\..\components\softdevice\s110\headers\ble_ranges.h
 .\_build\ble_advdata.o: ..\..\..\..\..\..\components\softdevice\s110\headers\ble_types.h
@@ -15,6 +15,6 @@
 .\_build\ble_advdata.o: ..\..\..\..\..\..\components\softdevice\s110\headers\ble_gattc.h
 .\_build\ble_advdata.o: ..\..\..\..\..\..\components\softdevice\s110\headers\ble_gatts.h
 .\_build\ble_advdata.o: ..\..\..\..\..\..\components\libraries\util\app_util.h
-.\_build\ble_advdata.o: E:\softs\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.2.0\Device\Include\compiler_abstraction.h
+.\_build\ble_advdata.o: E:\program files\keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.2.0\Device\Include\compiler_abstraction.h
 .\_build\ble_advdata.o: ..\..\..\..\..\..\components\libraries\util\nordic_common.h
 .\_build\ble_advdata.o: ..\..\..\..\..\..\components\ble\common\ble_srv_common.h
